@@ -290,8 +290,11 @@ header {
 
 
 .main-inferior-product {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
 }
 
 .main-product {
@@ -299,7 +302,7 @@ header {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 72%, rgba(63, 166, 176, 255)200%);
     border-radius: 5px;
     margin-left: 10%;
-    width: 30%;
+    width: 90%;
     margin: auto;
     margin-top: 2%;
 }
