@@ -503,14 +503,92 @@ iframe {
     text-align: center;
 }
 
-.form-contact label,
-input,
+.form-contact input,
 textarea,
-button {
+button,
+select {
     padding: 1%;
     margin-top: 7px;
 }
 
+select {
+    border-right: 2px inset rgba(53, 110, 132, 255);
+    border-bottom: 2px inset rgba(53, 110, 132, 255);
+    border-left: 2px inset rgba(53, 110, 132, 255);
+    border-top: 1px inset rgba(53, 110, 132, 255);
+    border-radius: 6px;
+
+    background: none;
+}
+
+.form-contact input:not([type=radio], [type=reset], [type=submit], [type=checkbox]) {
+    border-bottom: 3px inset rgba(53, 110, 132, 255);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 4px;
+    width: 60%;
+    background: none;
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgba(53, 110, 132, 255);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+
+
+.form-contact input[type=submit],
+input[type=reset] {
+    border: none;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, rgba(63, 166, 176, 255), rgba(53, 110, 132, 255));
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.form-contact input[type=submit]:hover,
+input[type=reset]:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.form-contact input[type=submit]:active,
+input[type=reset]:active {
+    position: relative;
+    top: 1px;
+}
 
 
 /*footer*/
@@ -635,6 +713,11 @@ footer .contenedor {
 
     .form-contact {
         margin-top: 5%;
+        width: 90%;
+    }
+
+    .form-contact input:not([type=radio], [type=reset], [type=submit], [type=checkbox]) {
+        width: 80%;
     }
 
 }
@@ -722,5 +805,8 @@ footer .contenedor {
 
     .form-contact {
         margin-top: 5%;
+        width: 90%;
     }
+
+
 }
