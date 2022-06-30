@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/LogoFull.png">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-lg" style="background: linear-gradient(to right, #D7DDE8, #9eabce);">
         <a class="navbar-brand" href="../home.html"><img src="../assets/img/Wind_proyect__5_-removebg-preview.png"
                 width="20%"></a>
@@ -53,85 +53,99 @@
             </form>
         </div>
     </nav>
-    
-    <section class="navbar2">
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
 
-            <li>
-                <a href="../pages/products.html">Products</a>
-            </li>
 
-            <li>
-                <a href="../pages/community.html">Community</a>
-            </li>
+    <h1 class="title-contact text-center">Get in touch!</h1>
 
-            <li>
-                <a href="../pages/stores.html">Stores</a>
-            </li>
 
-            <li>
-                <a href="../pages/contact.html">Contact</a>
-            </li>
-        </ul>
-    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md col-xs-12">
+                <img src="../assets/img/contact.webp" class="img-fluid" alt="">
+                <h4>
+                    Got a doubt about your equipment or about anything else revolving the magical world of kitesurfing?
+                    Don´t
+                    be shy and reach out to us!
+                    We´re happy to help, and will respond as soon as possible!
+                </h4>
+            </div>
 
-    <h1 class="title-contact">Get in touch!</h1>
+            <div class="col-md col-xs-12">
+                <h4 class="text-center">Your info</h4>
+                <form>
+                    <div class="row">
+                        <div class="col my-1">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col my-1">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
 
-    <main class="main-contact">
-        <div class="text-contact">
-            <img src="../assets/img/contact.webp" alt="">
-            <h3>
-                Got a doubt about your equipment or about anything else revolving the magical world of kitesurfing? Don´t
-                be shy and reach out to us!
-                We´re happy to help, and will respond as soon as possible!
-            </h3>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-sm-10 my-1">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10 my-1">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Sex</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                            value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Female
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                            value="option3">
+                                        <label class="form-check-label" for="gridRadios3">
+                                            Other/Non-binary
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <div class="form-check my-1">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        I agree to the terms and conditions
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-outline-secondary my-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </form>
+            </div>
         </div>
-    
-        <form action="" class="form-contact">
-            <h2>Your info</h2>
-            
-            <input type="text" placeholder="First name" required>
-            <br>
-            
-            <input type="text" placeholder="Last name" required>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Female</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Male</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                <label class="form-check-label" for="inlineRadio3">Other/Non-binary</label>
-              </div>
-            
-            <input type="email" placeholder="Email" required>
-            <br>
-            
-            <input type="password" name="password" id="password" placeholder="Password" required>
-            <br>
-            
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
-            <br>
-            <label for="">Do you want to recieve our newsletter?</label>
-            <select name="newsletter">
-                <option value="">Yes please!</option>
-                <option value="">No thanks</option>
-            </select>
-            <br>
-            <input type="checkbox" name="I agree" value="I agree" required>
-            <label for="">I agree to the terms and conditions</label>
-            <br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Start over">
-        </form>
-    </main>
-    
+    </div>
+
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background: linear-gradient(to right, #D7DDE8, #9eabce); color: white;">
