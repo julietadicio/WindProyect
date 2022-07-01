@@ -1,20 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background: linear-gradient(to right, #D7DDE8, #9eabce);
 }
 nav img {
   width: 18%;
+  margin-left: 10%;
 }
 nav .nav-link {
   color: white;
 }
+nav .input-group {
+  width: 35%;
+}
+nav .dropdown-toggle {
+  color: white;
+}
+nav .navbar-toggler {
+  color: white;
+}
+nav .navbar-collapse .dropdown-menu {
+  background: #9eabce;
+  border: 1px solid white;
+}
+nav .navbar-collapse .dropdown-menu .dropdown-item {
+  color: white;
+}
+nav .navbar-collapse .dropdown-menu :hover {
+  background-color: inherit;
+}
 
 .card {
-  background: linear-gradient(to right, #D7DDE8, #9eabce);
   color: white;
+  background: linear-gradient(to right, #D7DDE8, #9eabce);
+  width: 60%;
+  border: 1px solid white;
 }
 .card .card-header {
   font-style: italic;
+  border: 1px solid white;
 }
 .card .btn {
+  color: white;
+  border: 1px solid white;
+}
+
+footer {
+  background: linear-gradient(to right, #D7DDE8, #9eabce);
   color: white;
 }/*# sourceMappingURL=style.css.map */

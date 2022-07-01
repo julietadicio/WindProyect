@@ -1,10 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$background: linear-gradient(to right, #D7DDE8, #9eabce);
+$search: 35%;
+$border: 1px solid white;
+
 nav {
-    background: linear-gradient(to right, #D7DDE8, #9eabce);
+    background: $background;
+
     img {
-        width: 18%
+        width: 18%;
+        margin-left: 10%;
     }
+
     .nav-link {
         color: white;
     }
 
+    .input-group {
+        width: $search;
+    }
+
+    .dropdown-toggle {
+        color: white;
+    }
+
+    .navbar-toggler {
+        color: white;
+    }
+
+    .navbar-collapse {
+        .dropdown-menu {
+            background: #9eabce;
+            border: $border;
+
+            .dropdown-item {
+                color: white;
+            }
+            :hover {
+                background-color: inherit;
+            }
+        }
+    }
 }
