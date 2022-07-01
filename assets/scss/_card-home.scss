@@ -1,18 +1,21 @@
 $background: linear-gradient(to right, #D7DDE8, #9eabce);
 $border: 1px solid white;
 
+
 .card {
     color: white;
     background: $background;
     width: 60%;
     border: $border;
+
     .card-header {
         font-style: italic;
         border: $border;
     }
+
     .btn {
         color: white;
         border: $border;
     }
-    
+
 }
