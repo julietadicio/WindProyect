@@ -1,0 +1,20 @@
+nav {
+  background: linear-gradient(to right, #D7DDE8, #9eabce);
+}
+nav img {
+  width: 18%;
+}
+nav .nav-link {
+  color: white;
+}
+
+.card {
+  background: linear-gradient(to right, #D7DDE8, #9eabce);
+  color: white;
+}
+.card .card-header {
+  font-style: italic;
+}
+.card .btn {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
