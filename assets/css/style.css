@@ -37,11 +37,12 @@ nav .navbar-collapse .dropdown-menu :hover {
 .index .card {
   color: white;
   background: linear-gradient(to right, #D7DDE8, #9eabce);
-  width: 60%;
   border: 1px solid white;
+  width: 60%;
 }
 .index .card .card-header {
   font-style: italic;
+  color: white;
   border: 1px solid white;
 }
 .index .card .btn {
@@ -52,10 +53,6 @@ nav .navbar-collapse .dropdown-menu :hover {
 footer {
   background: linear-gradient(to right, #D7DDE8, #9eabce);
   color: white;
-}
-
-.input-group-p {
-  width: 40%;
 }
 
 iframe {

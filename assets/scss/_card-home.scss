@@ -1,21 +1,28 @@
-$background: linear-gradient(to right, #D7DDE8, #9eabce);
-$border: 1px solid white;
+$map: (
+    fondo: linear-gradient(to right, #D7DDE8, #9eabce),
+    border: 1px solid white,
+);
 
-
-.index .card {
+@mixin card {
     color: white;
-    background: $background;
-    width: 60%;
-    border: $border;
+    border: map-get($map, border);
+}
 
-    .card-header {
-        font-style: italic;
-        border: $border;
-    }
-
-    .btn {
+.index {
+    .card {
         color: white;
-        border: $border;
+        background: map-get($map, fondo);
+        border: map-get($map, border);
+        width: 60%;
+
+        .card-header {
+            font-style: italic;
+            @include card;
+        }
+
+        .btn {
+            @include card;
+        }
     }
 
 }
