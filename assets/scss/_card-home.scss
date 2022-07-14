@@ -6,7 +6,7 @@ $map: (
 @mixin card {
     color: white;
     border: map-get($map, border);
-}
+};
 
 .index {
     .card {
