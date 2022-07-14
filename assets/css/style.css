@@ -34,17 +34,17 @@ nav .navbar-collapse .dropdown-menu :hover {
   background-color: inherit;
 }
 
-.card {
+.index .card {
   color: white;
   background: linear-gradient(to right, #D7DDE8, #9eabce);
   width: 60%;
   border: 1px solid white;
 }
-.card .card-header {
+.index .card .card-header {
   font-style: italic;
   border: 1px solid white;
 }
-.card .btn {
+.index .card .btn {
   color: white;
   border: 1px solid white;
 }
@@ -52,4 +52,30 @@ nav .navbar-collapse .dropdown-menu :hover {
 footer {
   background: linear-gradient(to right, #D7DDE8, #9eabce);
   color: white;
+}
+
+.input-group-p {
+  width: 40%;
+}
+
+iframe {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.stores .input-group .btn-search, .stores .input-group .btn {
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 0 1%;
+  color: rgb(76, 76, 76);
+}
+.stores .input-group .btn-search:hover, .stores .input-group .btn:hover {
+  padding: 0 3%;
+  transition: 0.3s;
+}
+.stores .btn:hover {
+  border: none;
 }/*# sourceMappingURL=style.css.map */

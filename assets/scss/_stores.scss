@@ -1,0 +1,31 @@
+iframe {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.stores {
+    .input-group {
+        .btn-search {
+            border: 1px grey solid;
+            border-radius: 5px;
+            padding: 0 1%;
+            color: rgb(76, 76, 76);
+            &:hover {
+                padding: 0 3%;
+                transition: .3s;
+            }
+        }
+    }
+
+
+        .btn {
+            @extend .btn-search;
+            &:hover {
+                border: none;
+            }
+        }
+
+}
