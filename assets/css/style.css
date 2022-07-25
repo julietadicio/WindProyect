@@ -75,4 +75,36 @@ iframe {
 }
 .stores .btn:hover {
   border: none;
+}
+
+.community .card-body {
+  display: inline-block;
+}
+.community .card-body input, .community .card-body textarea {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 0.8%;
+  border-radius: 5px;
+  background: #9eabce;
+  border: 3px solid #D7DDE8;
+  padding: 5px;
+  color: white;
+}
+.community .card-body ::placeholder {
+  color: white;
+}
+.community .card-body .customfile::-webkit-file-upload-button {
+  border: none;
+  border-radius: 2px;
+  background-color: #D7DDE8;
+  color: #9eabce;
+  cursor: pointer;
+}
+.community .card-body .btn {
+  width: 65%;
+  display: block;
+  margin: auto;
+  margin-top: 1.2%;
+  font-size: larger;
 }/*# sourceMappingURL=style.css.map */

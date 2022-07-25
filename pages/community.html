@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="icon" href="../assets/img/LogoFull.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://kit.fontawesome.com/6d4e3eb60b.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -55,7 +55,7 @@
         </div>
     </nav>
 
-    <main>
+    <main class="community">
         <div class="container">
             <h1 class="text-center">Community</h1>
 
@@ -64,40 +64,14 @@
                     <div class="card-body">
                         <h2 class="card-title">Add</h2>
                         <h6 class="card-subtitle mb-2 text-muted">Fill other kiters in on your last adventure!</h6>
+                        <form action="" class="form">
+                            <input type="text" name="name" id="" placeholder="Name">
+                            <input type="text" name="location" placeholder="Location">
+                            <input type="file" name="file" class="customfile">
+                            <textarea name="" id="" cols="30" rows="2" placeholder="Description..."></textarea>
+                            <a href="#" class="btn btn-outline-secondary mx-auto">Submit</a>
+                        </form>
 
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="">First and last name</span>
-                            </div>
-                            <input type="text" class="form-control">
-                            <input type="text" class="form-control">
-                        </div>
-
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="">Location</span>
-                            </div>
-                            <input type="text" class="form-control">
-                        </div>
-
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Upload</span>
-                            </div>
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="inputGroupFile01"
-                                    style="overflow: hidden;">
-                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                            </div>
-                        </div>
-
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Description</span>
-                            </div>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                        </div>
-                        <a href="#" class="btn btn-outline-secondary mx-auto">Submit</a>
                     </div>
                 </div>
 

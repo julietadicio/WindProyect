@@ -1,0 +1,34 @@
+.community {
+    .card-body {
+        display: inline-block;
+        input, textarea {
+            width: 80%;
+            display: block;
+            margin: auto;
+            margin-top: 0.8%;
+            border-radius: 5px;
+            background: #9eabce;
+            border: 3px solid #D7DDE8;
+            padding: 5px;
+            color: white;
+        }
+        ::placeholder {
+            color: white;
+        }
+        .customfile::-webkit-file-upload-button {
+            border: none;
+            border-radius: 2px;
+            background-color: #D7DDE8;
+            color: #9eabce;
+            cursor: pointer;
+        }
+        .btn {
+            width: 65%;
+            display: block;
+            margin: auto;
+            margin-top: 1.2%;
+            font-size: larger;
+        }
+    }
+}
+
