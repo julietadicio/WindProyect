@@ -7,6 +7,14 @@ iframe {
 }
 
 .stores {
+    .card {
+        background-image: url(/assets/img/stacked-waves-haikei\ \(2\).png);
+        color: white;
+        &:hover {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            transition: .2s;
+        }
+    }
     .input-group {
         .btn-search {
             border: 1px grey solid;
