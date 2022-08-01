@@ -1,0 +1,15 @@
+.products {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.products {
+    .card {
+        &:hover {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            transition: .2s;
+        }
+    }
+}

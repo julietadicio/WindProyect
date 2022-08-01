@@ -7,29 +7,37 @@
 nav {
   background: linear-gradient(to right, #D7DDE8, #9eabce);
 }
+
 nav img {
   width: 18%;
   margin-left: 10%;
 }
+
 nav .nav-link {
   color: white;
 }
+
 nav .input-group {
   width: 35%;
 }
+
 nav .dropdown-toggle {
   color: white;
 }
+
 nav .navbar-toggler {
   color: white;
 }
+
 nav .navbar-collapse .dropdown-menu {
   background: #9eabce;
   border: 1px solid white;
 }
+
 nav .navbar-collapse .dropdown-menu .dropdown-item {
   color: white;
 }
+
 nav .navbar-collapse .dropdown-menu :hover {
   background-color: inherit;
 }
@@ -39,15 +47,18 @@ nav .navbar-collapse .dropdown-menu :hover {
   background: rgba(0, 102, 255, 0.5647058824);
   border: 1px solid white;
 }
+
 .index .card .card-header {
   font-style: italic;
   color: white;
   border: 1px solid white;
 }
+
 .index .card .btn {
   color: white;
   border: 1px solid white;
 }
+
 .index .cards-index {
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +66,7 @@ nav .navbar-collapse .dropdown-menu :hover {
   align-items: center;
   margin-bottom: 2%;
 }
+
 .index .card-index {
   padding: 4%;
   border-radius: 5px;
@@ -64,13 +76,16 @@ nav .navbar-collapse .dropdown-menu :hover {
   cursor: pointer;
   background-image: url(/assets/img/blob-scene-haikei\ \(1\).png);
 }
+
 .index .card-index:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
   transition: 0.2s;
 }
+
 .index .card-index a {
   text-decoration: none;
 }
+
 .index .card-index h2 {
   font-weight: bold;
   -webkit-text-fill-color: transparent;
@@ -92,24 +107,34 @@ iframe {
   margin-top: 1%;
 }
 
+* {
+  overflow-x: hidden;
+}
+
 .stores .card {
   background-image: url(/assets/img/stacked-waves-haikei\ \(2\).png);
   color: white;
 }
+
 .stores .card:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
   transition: 0.2s;
 }
-.stores .input-group .btn-search, .stores .input-group .btn {
-  border: 1px grey solid;
+
+.stores .input-group .btn-search,
+.stores .input-group .btn {
+  border: 1px rgb(142, 142, 142) solid;
   border-radius: 5px;
   padding: 0 1%;
   color: rgb(76, 76, 76);
 }
-.stores .input-group .btn-search:hover, .stores .input-group .btn:hover {
+
+.stores .input-group .btn-search:hover,
+.stores .input-group .btn:hover {
   padding: 0 3%;
   transition: 0.3s;
 }
+
 .stores .btn:hover {
   border: none;
 }
@@ -117,7 +142,9 @@ iframe {
 .community .card-body {
   display: inline-block;
 }
-.community .card-body input, .community .card-body textarea {
+
+.community .card-body input,
+.community .card-body textarea {
   width: 80%;
   display: block;
   margin: auto;
@@ -128,9 +155,11 @@ iframe {
   padding: 5px;
   color: white;
 }
+
 .community .card-body ::placeholder {
   color: white;
 }
+
 .community .card-body .customfile::-webkit-file-upload-button {
   border: none;
   border-radius: 2px;
@@ -138,10 +167,50 @@ iframe {
   color: #9eabce;
   cursor: pointer;
 }
+
 .community .card-body .btn {
   width: 65%;
   display: block;
   margin: auto;
   margin-top: 1.2%;
   font-size: larger;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.products .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products .card:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  transition: 0.2s;
+}
+
+.products .card {
+  margin: 3px;
+}
+
+@media (max-width: 600px) {
+  .products .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .products .card {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1%;
+  }
+
+  .index .cards-index {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .index .card-index {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

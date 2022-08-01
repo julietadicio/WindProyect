@@ -6,6 +6,10 @@ iframe {
     margin-top: 1%;
 }
 
+* {
+    overflow-x: hidden;
+}
+
 .stores {
     .card {
         background-image: url(/assets/img/stacked-waves-haikei\ \(2\).png);
@@ -17,7 +21,7 @@ iframe {
     }
     .input-group {
         .btn-search {
-            border: 1px grey solid;
+            border: 1px rgb(142, 142, 142) solid;
             border-radius: 5px;
             padding: 0 1%;
             color: rgb(76, 76, 76);
@@ -27,8 +31,6 @@ iframe {
             }
         }
     }
-
-
         .btn {
             @extend .btn-search;
             &:hover {
