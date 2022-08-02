@@ -150,9 +150,9 @@ iframe {
   margin: auto;
   margin-top: 0.8%;
   border-radius: 5px;
-  background: #9eabce;
-  border: 3px solid #D7DDE8;
-  padding: 5px;
+  background: linear-gradient(to right, #46b59b, #017e7f);
+  border: none;
+  padding: 7px;
   color: white;
 }
 
@@ -163,8 +163,8 @@ iframe {
 .community .card-body .customfile::-webkit-file-upload-button {
   border: none;
   border-radius: 2px;
-  background-color: #D7DDE8;
-  color: #9eabce;
+  background-color: #e4e4e4;
+  color: #017e7f;
   cursor: pointer;
 }
 
@@ -190,11 +190,37 @@ iframe {
   margin: 3px;
 }
 
+h1 {
+	    text-align: center;
+      -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #46b59b, 
+                  8px 8px 0px #017e7f
+}
+
+.products .parent {
+  text-align: center;
+}
+
+.products h2 {
+  background: linear-gradient(to right, #46b59b, #017e7f);
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+
 @media (max-width: 600px) {
   .products .container {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .products .card {
     width: 70%;
     margin: auto;
