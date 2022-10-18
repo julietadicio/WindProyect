@@ -61,20 +61,20 @@
                         <h2 class="card-title">Add</h2>
                         <h6 class="card-subtitle mb-2 text-muted">Fill other kiters in on your last adventure!</h6>
                         <form action="" class="form">
-                            <input type="text" name="name" id="" placeholder="Name">
+                            <input type="text" name="name" id="name" placeholder="Name">
                             <input type="text" name="location" placeholder="Location">
                             <input type="file" name="file" class="customfile">
-                            <textarea name="" id="" cols="30" rows="2" placeholder="Description..."></textarea>
-                            <a href="#" class="btn btn-outline-secondary mx-auto">Submit</a>
+                            <textarea name="" id="description" cols="30" rows="2" placeholder="Description..."></textarea>
+                            <a href="#" id="submit" class="btn btn-outline-secondary mx-auto">Submit</a>
                         </form>
 
                     </div>
                 </div>
 
-
                 <div class="container">
                     <div class="row">
                         <h2 class="title-community">All posts</h2>
+                        <div id="cardPost"></div>
                         <div class="card m-2 col-md col-xs-12">
                             <img class="card-img-top" src="/assets/img/secluded.jpg" alt="Spot in Lahaina">
                             <div class="card-body">
@@ -121,10 +121,9 @@
                 </div>
             </div>
 
-
-
-
     </main>
+
+    <script src="/script.js"></script>
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
